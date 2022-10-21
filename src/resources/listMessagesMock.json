@@ -1,0 +1,257 @@
+{
+    "employee_id": 2,
+    "conversations": [
+        {
+            "is_favourite": true,
+            "conversation_id": 15,
+            "topic_id": 3,
+            "topic_type": "case",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 1,
+                "name": "German Alvarez"
+            },
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        },
+        {
+            "conversation_participants": {
+                "employee": {
+                    "id": 1,
+                    "name": "Richard Wilson",
+                    "provider": {
+                        "id": 2,
+                        "name": "Unite US Healthcare"
+                    }
+                }
+            },
+            "is_favourite": false,
+            "conversation_id": 16,
+            "topic_id": 2,
+            "topic_type": "referral",
+            "last_message": "Mon Oct 17 2022 18:15:43 GMT-0300",
+            "patient": {
+                "id": 2,
+                "name": "Richard Wilson"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+@import './styles/general/variables.scss';
+
+.main-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90vw;
+  position: absolute;
+  left: 5vw;
+}
