@@ -1,4 +1,5 @@
-{
+[
+    {
     "conversation_id": 15,
     "topic_id": 3,
     "topic_type": "case",
@@ -131,6 +132,350 @@
                 "undelivered": "none"
               }
 
+        },
+        {
+            "index" : 0,
+            "id": 1,
+            "body": "Hello, how are you?",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 1,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 1,
+            "id": 1,
+            "body": "Fine, and you? Did you have time to check the case?",
+            "date_created": "2019-01-01 12:05:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 2,
+            "id": 1,
+            "body": "I'm fine, thanks. I'm working on it. I will need the paper work to close the case.",
+            "date_created": "2019-01-01 12:08:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 3,
+            "id": 1,
+            "body": "Sure, I will send it to you by the end of the day.",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 4,
+            "id": 1,
+            "body": "Excellent, thanks!",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 0,
+            "id": 1,
+            "body": "Hello, how are you?",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 1,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 1,
+            "id": 1,
+            "body": "Fine, and you? Did you have time to check the case?",
+            "date_created": "2019-01-01 12:05:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 2,
+            "id": 1,
+            "body": "I'm fine, thanks. I'm working on it. I will need the paper work to close the case.",
+            "date_created": "2019-01-01 12:08:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 3,
+            "id": 1,
+            "body": "Sure, I will send it to you by the end of the day.",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 4,
+            "id": 1,
+            "body": "Excellent, thanks!",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        }
+    ]
+},
+{
+    "conversation_id": 16,
+    "topic_id": 3,
+    "topic_type": "case",
+    "patient":{
+        "id": 1,
+        "name": "German Alvarez"
+    },
+    "conversation_participants": {
+        "employee":{
+            "id": 1,
+            "name": "Emili Milier",
+            "provider": {
+                "id":2,
+                "name": "Unite US Healthcare"
+            }
+        }
+    },
+    "messages": [
+        {
+            "index" : 0,
+            "id": 1,
+            "body": "Hello, how are you?",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 1,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 1,
+            "id": 1,
+            "body": "Fine, and you? Did you have time to check the case?",
+            "date_created": "2019-01-01 12:05:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 2,
+            "id": 1,
+            "body": "I'm fine, thanks. I'm working on it. I will need the paper work to close the case.",
+            "date_created": "2019-01-01 12:08:00",
+            "sender": {
+                "id": 1,
+                "name": "Emili Milier",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
+        },
+        {
+            "index" : 3,
+            "id": 1,
+            "body": "Sure, I will send it to you by the end of the day.",
+            "date_created": "2019-01-01 12:00:00",
+            "sender": {
+                "id": 2,
+                "name": "Samantha Rogers",
+                "provider": {
+                    "id":2,
+                    "name": "Unite US Healthcare"
+                }
+            },
+            "delivery": {
+                "total": 2,
+                "sent": "all",
+                "delivered": "some",
+                "read": "some",
+                "failed": "none",
+                "undelivered": "none"
+              }
+
         }
     ]
 }
+]

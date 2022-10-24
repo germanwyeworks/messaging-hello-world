@@ -1,15 +1,13 @@
 import '../styles/components/MessagesList.scss';
-import listMessagesMock from '../resources/listMessagesMock.json';
 
-const MessagesList = () => {
-    const listMessagesData = JSON.parse(JSON.stringify(listMessagesMock));
-    console.log(listMessagesData);
+const MessagesList = (props) => {
+    
     return(
         <div className='list'>
             {
-                listMessagesData.conversations.map((conver)=>{
+                props.conversationList.conversations.map((conver,index)=>{
                     return (
-                        <div className='list-item'>
+                        <div className={props.conversationSelectedIndex == index ? 'list-item selected' : 'list-item'} id={index} onClick={props.onConversationSelected}>
                             <b>{conver.conversation_participants.employee.name} ({conver.conversation_participants.employee.provider.name})</b>
                             {conver.last_message}
                             <span><b>Topic:</b> {conver.topic_type}</span>

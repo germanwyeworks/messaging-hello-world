@@ -10,11 +10,15 @@
     padding: 2%;
     overflow: scroll;
     &-item{
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         background-color: $primary-color;
         margin: 1%;
         padding: 5%;
+        &.selected{
+            box-shadow: 0 0 6px 3px #979797;
+        }
     }
 }
