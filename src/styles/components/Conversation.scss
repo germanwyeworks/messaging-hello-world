@@ -16,36 +16,46 @@
     }
     &-body{
         height: 90%;
-        overflow: scroll;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: stretch;
         justify-content: flex-start;
         align-content: stretch;
-        &-message{
-            width: 100%;
-            margin-bottom: 2%;
-            display: flex;
-            align-items: flex-end;
-            &.send{
-                justify-content: flex-end;
-                .text{
-                    background-color: #4B67A6;
-                    color: $secondary-color;
-                    padding: 1%;
-                    border-radius: 2px;
-                }
-            }
-            &.received{
-                justify-content: flex-start;
-                .text{
-                    background-color: $primary-color;
-                    padding: 1%;
-                    border-radius: 2px;
-                }
-            }
+        &-container{
+            overflow: scroll;
 
+            &-message{
+                width: 100%;
+                margin-bottom: 2%;
+                display: flex;
+                align-items: flex-end;
+                &.send{
+                    justify-content: flex-end;
+                    .text{
+                        background-color: #4B67A6;
+                        color: $secondary-color;
+                        padding: 1%;
+                        border-radius: 2px;
+                    }
+                }
+                &.received{
+                    justify-content: flex-start;
+                    .text{
+                        background-color: $primary-color;
+                        padding: 1%;
+                        border-radius: 2px;
+                    }
+                }
+    
+            }
         }
+        &-sender{
+            textarea{
+                width: 100%;
+
+            }
+        }
+
     }
 }

@@ -17,11 +17,25 @@ const Conversation = (props) => {
                 <span className='conversation-data'><span><b>Client:</b> {conversationSelected.patient.name}</span> | <span><b>Topic:</b> {conversationSelected.topic_type}</span> | <a href='#'>Link</a></span>
             </div>
             <div className='conversation-body'>
-                {
-                    conversationSelected.messages.map(msgObj => {
-                        return msgObj.sender.id === employeeId ? <div className='conversation-body-message send'><span className='date'>{new Date(msgObj.date_created).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</span><span className='text'>{msgObj.body}</span></div> : <div className='conversation-body-message received'><span className='text'>{msgObj.body}</span><span className='date'>{new Date(msgObj.date_created).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</span></div>
-                    })
-                }
+                <div className='conversation-body-container'>
+                    {
+                        conversationSelected.messages.map(msgObj => {
+                            return msgObj.sender.id === employeeId ? 
+                                <div className='conversation-body-container-message send'>
+                                    <span className='date'>{new Date(msgObj.date_created).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</span>
+                                    <span className='text'>{msgObj.body}</span>
+                                </div> : 
+                                <div className='conversation-body-container-message received'>
+                                    <span className='text'>{msgObj.body}</span>
+                                    <span className='date'>{new Date(msgObj.date_created).toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric' })}</span>
+                                </div>
+                        })
+                    }
+                </div>
+                <div className='conversation-body-sender'>
+                    <textarea rows="5" cols="50"></textarea>
+                    <button>Send</button>
+                </div>
             </div>
         </div>
     );
