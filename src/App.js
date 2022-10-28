@@ -3,7 +3,7 @@ import './App.scss';
 
 
 import { useEffect, useState } from 'react'
-import Client from './components/ClientContainer';
+import ClientContainer from './components/ClientContainer';
 import Loader from './components/Loader';
 
 function App() {
@@ -11,16 +11,11 @@ function App() {
   
   const [isLoading, setIsLoading] = useState(true)
   const [token, setToken] = useState("");
-  const userLogged = {
-    name: "German Alvarez"
-  }
-  
+  localStorage.setItem("username", "German Alvarez")
+  const userLogged = localStorage.getItem('username');
 
-
-
-  
   useEffect(() => {
-    fetch(`http://localhost:5000/auth/user/${userLogged.name}`)
+    fetch(`http://localhost:5000/auth/user/${userLogged}`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -35,7 +30,7 @@ function App() {
   return(
     <>
       {
-        !isLoading ? <Client token={token}/> : <Loader/>
+        !isLoading ? <ClientContainer token={token}/> : <Loader/>
       }
     </>
   )

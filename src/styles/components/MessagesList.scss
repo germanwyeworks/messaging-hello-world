@@ -1,10 +1,16 @@
 @import '../general/variables.scss';
+
+.list-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+
+}
 .list{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    height: 80%;
     background-color: $secondary-color;
     justify-content: flex-start;
     padding: 2%;
@@ -20,5 +26,16 @@
         &.selected{
             box-shadow: 0 0 6px 3px #979797;
         }
+    }
+}
+.new-conversation{
+    border: 1px solid black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    #createButton{
+        width: 50%;
+        align-self: center;
+        margin-top: 3%;
     }
 }
