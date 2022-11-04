@@ -51,7 +51,6 @@ const ClientContainer = (props) => {
           }
         )
         setListOfMessages(listMessagesData)
-        console.log(listOfMessages);
       })
     })
   }
@@ -72,7 +71,7 @@ const ClientContainer = (props) => {
   client.on("conversationJoined", (conversation) => {
     //console.log(conversation);
     conversation.on("typingStarted", (participant) => {
-      //console.log(participant);
+      console.log(participant);
     });
   });
   /*
@@ -80,9 +79,11 @@ const ClientContainer = (props) => {
   The event is also triggered when the client creates a new conversation.
   */
   client.on("conversationAdded", (conversation) => {
-    //console.log(conversation);
+    console.log(conversation);
+    getSubscribedConversations(client);
+
     conversation.on("typingStarted", (participant) => {
-      //console.log(participant);
+      console.log(participant);
     });
   });
   client.on("tokenAboutToExpire", () => {
@@ -90,6 +91,19 @@ const ClientContainer = (props) => {
       //log back again
     }
   });
+  
+  const getSubscribedConversations = async() => {
+    let subscribedConversations = await client.getSubscribedConversations();
+    let conversations = subscribedConversations.items;
+    
+    while (subscribedConversations.hasNextPage) {
+      subscribedConversations = await subscribedConversations.nextPage();
+      conversations = [...conversations, ...subscribedConversations.items];
+    }
+    console.log(conversations);
+    return conversations;
+  }
+  getSubscribedConversations();
   const handleConversationSelection = (evt) => {
     setConversationSelectedIndex(+evt.target.id);
     setConversationSelected(conversationData.find((conver) => {
