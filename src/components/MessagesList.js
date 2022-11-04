@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import '../styles/components/MessagesList.scss';
 
 const MessagesList = (props) => {
@@ -7,10 +7,7 @@ const MessagesList = (props) => {
     const [newConversationTopic, setNewConversationTopic] = useState("");
     const [newConversationPatient, setNewConversationPatient] = useState("");
     const [listOfMessages, setListOfMessages] = useState(props.conversationList);
-    useEffect(() => {
-        setListOfMessages(props.conversationList)
-    
-      }, []); 
+
     const onCreateNewConversation = (event) => {
        event.preventDefault();
         
